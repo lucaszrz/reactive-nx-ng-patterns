@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { App } from './app';
+import { GenericTable } from './generic-table';
 
-describe('App', () => {
-  let component: App;
-  let fixture: ComponentFixture<App>;
+describe('GenericTable', () => {
+  let component: GenericTable;
+  let fixture: ComponentFixture<GenericTable>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App]
+      imports: [GenericTable],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(App);
+    fixture = TestBed.createComponent(GenericTable);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

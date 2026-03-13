@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-mono/shared-data-access-users": [
+        "libs/shared/data-access/users/src/index.ts"
+      ],
+      "@angular-mono/users-feature-users": [
+        "libs/users/feature-users/src/index.ts"
+      ],
+      "@angular-mono/shared-ui-generic-table": [
+        "libs/shared/ui/generic-table/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
